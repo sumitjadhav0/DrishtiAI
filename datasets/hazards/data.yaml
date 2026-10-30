@@ -1,0 +1,8 @@
+path: datasets/hazards
+train: images/train
+val: images/val
+
+# The merged dataset labels every annotated object as class 0. Keep this as
+# one generic class until each source annotation is reliably remapped.
+nc: 1
+names: ['hazard']
